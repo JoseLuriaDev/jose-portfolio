@@ -1,0 +1,56 @@
+@use "../../sass";
+
+.projectCardContainer {
+  width: 100%;
+  max-width: 550px;
+  background-color: sass.$dark-gray;
+  padding: 1.5rem;
+  border-radius: 20px;
+
+  @include sass.breakpoint(sass.$size-lg) {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+    max-width: 1000px;
+  }
+
+  .projectCardImageWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    @include sass.breakpoint(sass.$size-lg) {
+      flex: 1;
+    }
+
+    .projectCardImage {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+
+  .projectCardDataContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    text-align: left;
+
+    @include sass.breakpoint(sass.$size-lg) {
+      flex: 1;
+      margin-top: 0;
+    }
+
+    .projectCardButtons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+
+      @include sass.breakpoint(sass.$size-lg) {
+        justify-content: flex-start;
+        gap: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "technologies": [
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "React",
+    "NextJs",
+    "NodeJs",
+    "Express"
+  ],
+  "links": [
+    { "id": 1, "name": "Inicio", "direction": "#header" },
+    { "id": 2, "name": "Sobre Mi", "direction": "#about" },
+    { "id": 3, "name": "Proyectos", "direction": "#projects" },
+    { "id": 4, "name": "Contacto", "direction": "#contact" }
+  ],
+  "projects": [
+    {
+      "title": "E-commerce",
+      "description": "Un E-commerce de productos de Audio creado con React, React Router, Redux Toolkit y SASS.",
+      "image": "./ecommerce-preview.jpg",
+      "liveLink": "https://audiophile-ecommerce-website.netlify.app/",
+      "githubLink": "https://github.com/JoseLuria/audiophile-ecommerce"
+    },
+    {
+      "title": "Todo App",
+      "description": "Una aplicación de tareas con funcionalidad de drag and drop y modo oscuro, creada con React, Tailwind y Redux",
+      "image": "./todo-preview.jpg",
+      "liveLink": "https://vibrant-chandrasekhar-6b2309.netlify.app/",
+      "githubLink": "https://github.com/JoseLuria/todo-app"
+    },
+    {
+      "title": "Music App",
+      "description": "Una aplicación que permite buscar información sobre diversas bandas y artistas musicales y agregarlos a favoritos usando la API de AudioDB",
+      "image": "./react-music-preview.jpg",
+      "liveLink": "https://sensational-sprinkles-de98e3.netlify.app/",
+      "githubLink": "https://github.com/JoseLuria/react-music"
+    }
+  ]
+}
