@@ -24,7 +24,7 @@ const Header = () => {
           >
             LinkedIn
           </LinkButton>
-          <LinkButton href="https://github.com/JoseLuria" newTab>
+          <LinkButton href="https://github.com/JoseLuriaDev" newTab>
             GitHub
           </LinkButton>
         </div>
